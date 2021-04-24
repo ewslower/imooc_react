@@ -1,6 +1,7 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
-import PriceList from './components/PriceList'
+import ViewTab from './components/ViewTab'
+import { LIST_VIEW, CHART_VIEW } from './utility'
 const items = [
 	{
 		"id": 1,
@@ -29,10 +30,9 @@ const items = [
 function App() {
   return (
     <div className="App">
-		<PriceList 
-			items={items}
-			onModifyItem={(item) => {alert(item.id)}}
-			onDeleteItem={(item) => {alert(item.id)}}
+		<ViewTab 
+			activeTab={LIST_VIEW}
+			onTabChange={(view) => {console.log(view)}}
 		/>
     </div>
   );

@@ -1,10 +1,10 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Home from './components/home/x2'
-import About from './components/about/xe42edb53'
-import Contact from './components/contact/xab66a7dc'
-import Service from './components/service/x389cd3ef'
-import Shipping from './components/shipping/x93270faf'
+import About from './components/about/x10cc2fd4'
+import Contact from './components/contact/x9f4e63b9'
+import Service from './components/service/x5304fc3e'
+import Shipping from './components/shipping/xbfcce1be'
 
 import { Route, BrowserRouter } from 'react-router-dom'
 

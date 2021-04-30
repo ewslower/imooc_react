@@ -41,7 +41,14 @@ class X2 extends React.Component {
           <div data-layer="b4d333d4-974d-4c02-be36-b075eb24a2c4" className="x2">        <div data-layer="5207d94a-a210-4a05-a63d-07ccccbd1723" className="x184927abca"></div>
         <div data-layer="4cce6d02-5b31-48c2-a1b4-c2441239d493" className="x9d6c2d062"></div>
         <div data-layer="e4713286-71c5-430c-9ad5-1940d99e4056" className="x4e901d770">            <div data-layer="a8550b7b-68ae-4bd8-9139-ec3e98e75d9c" className="x112ce71a8e"></div>
-            <div data-layer="350049f0-735d-4720-a1d4-a7cb6e9348ed" className="xa9574cca">服务范围</div>
+            <div 
+				data-layer="350049f0-735d-4720-a1d4-a7cb6e9348ed" 
+				className="xa9574cca"
+				onClick={() => this.props.history.push('/service')}
+				style={{cursor: 'pointer'}}
+			>
+				服务范围
+			</div>
 </div>
         <div data-layer="feebebcd-8ad4-4079-81f7-2d1cbc4878f3" className="x16"></div>
         <div data-layer="6ec4cd71-2305-48b7-85ee-ef7b71ffa20c" className="x40"></div>
@@ -49,9 +56,27 @@ class X2 extends React.Component {
         <div data-layer="6d921ba9-374b-41c6-8b52-4971c83d3f01" className="x8d0fa7b4a"></div>
         <div data-layer="3e1a04fc-b5a4-4b92-b908-b6a78d2bc487" className="x10"></div>
         <div data-layer="05b2e487-3c63-403d-8f2e-272d08d167c9" className="x11a71757be"></div>
-        <div data-layer="c84cdda2-e3d1-423e-9642-c1dda3de2b3c" className="xaec2b271">公司简介</div>
+        <div 
+			data-layer="c84cdda2-e3d1-423e-9642-c1dda3de2b3c" 
+			className="xaec2b271"
+			onClick={() => this.props.history.push('/about')}
+			style={{cursor: 'pointer'}}
+		>
+			公司简介
+		</div>
         <div data-layer="8db29b25-c04d-4e6a-8a28-0fa4b39e637a" className="x4b35dea7">      四川新鼎鑫物流有限公司，是一家国内集公路零担配送、中转、仓储、整车运输为一体的专业性物流公司。公司总部位于四川省成都市金牛区，全国有多家分支机构。主要货运路线有河北到四川往返、浙江到四川往返…</div>
-        <div data-layer="853dacc5-e54a-4139-8516-abba3f893787" className="x2b919d805">            <div data-layer="5156ab68-252d-4019-87e6-e78227bfac1e" className="xfb916a67">查看更多</div>
+        <div 
+			data-layer="853dacc5-e54a-4139-8516-abba3f893787" 
+			className="x2b919d805"
+		>            
+			<div 
+				data-layer="5156ab68-252d-4019-87e6-e78227bfac1e" 
+				className="xfb916a67"
+				onClick={() => this.props.history.push('/about')}
+				style={{cursor: 'pointer'}}
+			>
+			查看更多
+			</div>
             <svg data-layer="e8cf32a0-9fa2-4342-88e3-3b3be2ef50e5" preserveAspectRatio="none" viewBox="525.1790161132812 119.99925231933594 10.004638671875 18.4991455078125" className="x16397c5d23"><path d="M 525.9341430664062 138.4984436035156 C 525.740966796875 138.4984436035156 525.5476684570312 138.4247436523438 525.4002075195312 138.2772979736328 C 525.1052856445312 137.9824371337891 525.1052856445312 137.5043334960938 525.4002075195312 137.2094421386719 L 533.36083984375 129.2488708496094 L 525.4002075195312 121.2882461547852 C 525.1052856445312 120.9933700561523 525.1052856445312 120.5152893066406 525.4002075195312 120.2204132080078 C 525.6951904296875 119.925537109375 526.1731567382812 119.925537109375 526.4680786132812 120.2204132080078 L 534.9625854492188 128.7149353027344 C 535.2573852539062 129.0097961425781 535.2573852539062 129.4878845214844 534.9625854492188 129.7827606201172 L 526.4680786132812 138.2772827148438 C 526.3206176757812 138.4247436523438 526.1273803710938 138.4984436035156 525.9341430664062 138.4984436035156 Z"  /></svg>
 </div>
         <div data-layer="e49de909-4919-401c-ac64-e0bda5377191" className="x19"></div>

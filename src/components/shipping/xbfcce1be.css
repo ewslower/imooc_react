@@ -42,7 +42,7 @@
       overflow-x: auto;
       overflow-y: auto;
       background-color: rgba(255, 255, 255, 1);
-      width: 1920.00px;
+      width: 100vw;
     height: 1251.00px;
     left: 0px;
     top: 0px;
@@ -86,7 +86,7 @@
       border-bottom-left-radius: 0.00px;
       border-bottom-right-radius: 0.00px;
       box-shadow: none;
-      width: 1920.00px;
+      width: 100vw;
     height: 1141.00px;
     left: 0.00px;
     top: 110.00px;
@@ -130,7 +130,7 @@
       border-bottom-left-radius: 0.00px;
       border-bottom-right-radius: 0.00px;
       box-shadow: none;
-      width: 1920.00px;
+      width: 100vw;
     height: 272.00px;
     left: 0.00px;
     top: 180.00px;
@@ -174,7 +174,7 @@
       border-bottom-left-radius: 0.00px;
       border-bottom-right-radius: 0.00px;
       box-shadow: none;
-      width: 1920.00px;
+      width: 100vw;
     height: 70.00px;
     left: 0.00px;
     top: 451.00px;
@@ -451,7 +451,7 @@
       overflow-x: unset;
       overflow-y: unset;
       background-color: transparent;
-      width: 1920.00px;
+      width: 100vw;
     height: 172.00px;
     left: 0.00px;
     top: 1079.00px;
@@ -495,7 +495,7 @@
       border-bottom-left-radius: 0.00px;
       border-bottom-right-radius: 0.00px;
       box-shadow: none;
-      width: 1920.00px;
+      width: 100vw;
     height: 172.00px;
     left: 0.00px;
     top: 0.00px;
@@ -1334,6 +1334,10 @@
     font-family: 'PingFang SC', Arial;
     letter-spacing: 0;
     text-decoration: none;
+}
+
+.mr_30{
+	margin-right: 30px;
 }
 
 .xbfcce1be .x8325fafd4e .x3968c51d .x3968c51d-8 {
@@ -2287,7 +2291,7 @@
       border-bottom-left-radius: 0.00px;
       border-bottom-right-radius: 0.00px;
       box-shadow: none;
-      width: 1920.00px;
+      width: 100vw;
     height: 70.00px;
     left: 0.00px;
     top: 110.00px;
@@ -2522,7 +2526,7 @@
       overflow-x: unset;
       overflow-y: unset;
       background-color: transparent;
-      width: 1920.00px;
+      width: 100vw;
     height: 110.00px;
     left: 0.00px;
     top: 0.00px;
@@ -2614,7 +2618,7 @@
       border-bottom-left-radius: 0.00px;
       border-bottom-right-radius: 0.00px;
       box-shadow: none;
-      width: 1920.00px;
+      width: 100vw;
     height: 110.00px;
     left: 0.00px;
     top: 0.00px;

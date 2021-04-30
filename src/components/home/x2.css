@@ -42,7 +42,7 @@
       overflow-x: auto;
       overflow-y: auto;
       background-color: rgba(255, 255, 255, 1);
-      width: 1920.00px;
+      width: 100vw;
     height: 2394.00px;
     left: 0px;
     top: 0px;
@@ -86,7 +86,7 @@
       border-bottom-left-radius: 0.00px;
       border-bottom-right-radius: 0.00px;
       box-shadow: none;
-      width: 1920.00px;
+      width: 100vw;
     height: 2286.00px;
     left: 0.00px;
     top: 110.00px;
@@ -1287,7 +1287,7 @@
       overflow-x: unset;
       overflow-y: unset;
       background-color: transparent;
-      width: 1920.00px;
+      width: 100vw;
     height: 172.00px;
     left: 0.00px;
     top: 2224.00px;
@@ -1331,7 +1331,7 @@
       border-bottom-left-radius: 0.00px;
       border-bottom-right-radius: 0.00px;
       box-shadow: none;
-      width: 1920.00px;
+      width: 100vw;
     height: 172.00px;
     left: 0.00px;
     top: 0.00px;
@@ -1992,7 +1992,7 @@
       margin-top: 0.00px;
       margin-right: 0.00px;
       margin-bottom: 0.00px;
-      margin-left: -960px;
+      /* margin-left: -960px; */
       padding-top: 0.00px;
       padding-right: 0.00px;
       padding-bottom: 0.00px;
@@ -2015,9 +2015,9 @@
       border-bottom-left-radius: 0.00px;
       border-bottom-right-radius: 0.00px;
       box-shadow: none;
-      width: 1920.00px;
+      width: 100vw;
     height: 788.00px;
-    left: 50%;
+    /* left: 50%; */
     top: 180.00px;
 
 }
@@ -2775,7 +2775,7 @@
       overflow-x: unset;
       overflow-y: unset;
       background-color: transparent;
-      width: 1920.00px;
+      width: 100vw;
     height: 180.00px;
     left: 0.00px;
     top: 0.00px;
@@ -2819,7 +2819,7 @@
       border-bottom-left-radius: 0.00px;
       border-bottom-right-radius: 0.00px;
       box-shadow: none;
-      width: 1920.00px;
+      width: 100vw;
     height: 110.00px;
     left: 0.00px;
     top: 0.00px;
@@ -2863,7 +2863,7 @@
       border-bottom-left-radius: 0.00px;
       border-bottom-right-radius: 0.00px;
       box-shadow: none;
-      width: 1920.00px;
+      width: 100vw;
     height: 70.00px;
     left: 0.00px;
     top: 110.00px;
@@ -3018,7 +3018,7 @@
       overflow-x: unset;
       overflow-y: unset;
       background-color: transparent;
-      width: 1920.00px;
+      width: 100vw;
     height: 110.00px;
     left: 0.00px;
     top: 0.00px;
@@ -3110,7 +3110,7 @@
       border-bottom-left-radius: 0.00px;
       border-bottom-right-radius: 0.00px;
       box-shadow: none;
-      width: 1920.00px;
+      width: 100vw;
     height: 110.00px;
     left: 0.00px;
     top: 0.00px;

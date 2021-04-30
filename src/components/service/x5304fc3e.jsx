@@ -42,7 +42,7 @@ class X5304fc3e extends React.Component {
         <div data-layer="9e7cc1cb-9e39-4613-9040-1f3926a4846b" className="x3"></div>
         <div data-layer="cea34462-62ba-453c-b5dc-7b42a903a092" className="x251c163ee9"></div>
         <div data-layer="25b31909-5312-4872-b095-3c8f6b4d3f1a" className="x8315af1b">服务范围</div>
-        <div data-layer="75bcba30-9fcf-4fc9-aaa7-9c301dadcb47" className="x"><span className="x-0">首页 > </span><span className="x-5">服务范围</span></div>
+        {/* <div data-layer="75bcba30-9fcf-4fc9-aaa7-9c301dadcb47" className="x"><span className="x-0">首页 > </span><span className="x-5">服务范围</span></div> */}
         <svg data-layer="083cbc63-e9e4-4519-a82d-7a741db4093d" preserveAspectRatio="none" viewBox="-1992.5 564.5 451 3" className="x29f1b833e2"><path d="M -1991 566 L -1543 566"  /></svg>
         <div data-layer="3de4cbc0-3a17-4566-8a9a-e401b32f1cdc" className="x30">            <div data-layer="4161688d-888e-48bd-b99c-13f7069ab5fb" className="x92227af2">服务范围</div>
             <div data-layer="56e93ee2-ce70-448d-8a70-b5b9fbe6a12c" className="x279a902f78"></div>
@@ -115,7 +115,13 @@ class X5304fc3e extends React.Component {
 		</div>
         <div data-layer="eb71e616-6576-43d9-a64b-a86104a14b2b" className="x2"></div>
         <div data-layer="29563470-23e2-4ed7-a4a9-1532abf38367" className="x9"></div>
-        <div data-layer="5d636301-c6ab-4174-a2d0-54eeebc63050" className="x1bb43bd81"></div>
+        <div 
+			data-layer="5d636301-c6ab-4174-a2d0-54eeebc63050" 
+			className="x1bb43bd81"
+			onClick={() => this.props.history.push('/')}
+			style={{cursor: 'pointer'}}
+		>
+		</div>
         <div data-layer="e6bcc14b-12bc-497f-a82c-0283eba35f4a" className="x60">            <div data-layer="643108ab-930d-4aab-947b-534debedaa62" className="x59184f3ec3">                <div data-layer="a128bc36-24bc-4595-a45c-75f741cd8206" className="x19180969062ad81d9cd">物流热线：191-8096-9062</div>
                 <div data-layer="7d7f577b-889c-4bb2-8d9f-12ce359ab451" className="x02883584493cb7579aa">028-83584493</div>
 </div>

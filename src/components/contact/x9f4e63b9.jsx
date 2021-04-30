@@ -42,7 +42,7 @@ class X9f4e63b9 extends React.Component {
         <div data-layer="a7b80c17-706d-454e-93cb-1ab69987e808" className="x3"></div>
         <div data-layer="b71e7047-e436-44f4-a08f-dc62970c1148" className="x25ea9875c8"></div>
         <div data-layer="4e2ffdee-0b2a-4df4-a49f-6c0fd54d7916" className="x799e67f4">联系我们</div>
-        <div data-layer="d3651f13-933b-4cc6-aa5d-5e7614a6ded5" className="x"><span className="x-0">首页 > </span><span className="x-5">联系我们</span></div>
+        {/* <div data-layer="d3651f13-933b-4cc6-aa5d-5e7614a6ded5" className="x"><span className="x-0">首页 > </span><span className="x-5">联系我们</span></div> */}
         <svg data-layer="667ff590-c310-436d-a147-70b0de7aecc0" preserveAspectRatio="none" viewBox="-1992.5 564.5 451 3" className="x299720cb31"><path d="M -1991 566 L -1543 566"  /></svg>
         <div data-layer="e520d28b-9284-4562-863e-3d8b605d479c" className="x300cb62416">            <div data-layer="e8aca539-a686-4326-8c64-3859573a96e8" className="x6c351fda">联系我们</div>
             <div data-layer="b74c7fe9-d4a9-417e-bf9a-96fc26b16cbe" className="x2736448932"></div>
@@ -110,7 +110,13 @@ class X9f4e63b9 extends React.Component {
 		</div>
         <div data-layer="a34f9338-2b21-4ee1-a5d4-0839d14e2045" className="x9"></div>
         <div data-layer="084d91fd-469c-4221-a3de-59e85babe839" className="x2"></div>
-        <div data-layer="0d26fb81-8ebb-4dcf-8554-74fe2c147052" className="x1b95db32b"></div>
+        <div 
+			data-layer="0d26fb81-8ebb-4dcf-8554-74fe2c147052" 
+			className="x1b95db32b"
+			onClick={() => this.props.history.push('/')}
+			style={{cursor: 'pointer'}}
+		>
+		</div>
         <div data-layer="e66325fe-a141-4aea-bb2b-14b7423f4a25" className="x60">            <div data-layer="007b9422-b039-42e4-b237-6e0196c15623" className="x59">                <div data-layer="e7b29bff-6ffc-4a77-bac7-8e76e4b1a368" className="x191809690623adb26dc">物流热线：191-8096-9062</div>
                 <div data-layer="fb7df231-1e59-42fd-a7a5-d1e69531aa70" className="x0288358449314e4b0d3">028-83584493</div>
 </div>

@@ -20,8 +20,15 @@ class X10cc2fd4 extends React.Component {
         <div data-layer="c1ebadbb-c92d-4012-96c6-a33fc53b0e96" className="x3"></div>
         <div data-layer="6c6e0fd8-3cd3-406e-bb86-f1168775813a" className="x252dec3798"></div>
         <div data-layer="f2abf567-3a61-4316-beba-876ff19a1c5e" className="x31689a06">公司简介</div>
-        <div data-layer="65c3062f-d459-45be-906d-2729f5082083" className="x28067461">公司理念</div>
-        <div data-layer="de9dc808-513c-48dd-998d-e9b17440a5ec" className="xfdc62fd3"><span className="xfdc62fd3-0">首页 > </span><span className="xfdc62fd3-5">企业简介</span></div>
+        <div 
+			data-layer="65c3062f-d459-45be-906d-2729f5082083" 
+			className="x28067461"
+		>
+			<a href="#mind">
+				公司理念
+			</a>
+		</div>
+        {/* <div data-layer="de9dc808-513c-48dd-998d-e9b17440a5ec" className="xfdc62fd3"><span className="xfdc62fd3-0">首页 > </span><span className="xfdc62fd3-5">企业简介</span></div> */}
         <svg data-layer="73230307-6896-4357-ae6d-2f00c445d31d" preserveAspectRatio="none" viewBox="-1992.5 564.5 451 3" className="x29f77f0c56"><path d="M -1991 566 L -1750.375 566 L -1543 566"  /></svg>
         <div data-layer="31addb87-7255-4bc3-bb24-4f1218433bef" className="x3087c8a0dd">            <div data-layer="642c772a-da75-4aef-b176-816f9f07e05a" className="xddc269f5">公司简介</div>
             <div data-layer="8dfc5b86-6627-4791-9b33-3540adeb2d84" className="x27c3704d95"></div>
@@ -29,7 +36,13 @@ class X10cc2fd4 extends React.Component {
         <div data-layer="ade04137-dd61-46c9-88cd-175a3faf058c" className="x28b7cdad32"></div>
         <div data-layer="dbb856c0-d60e-42a4-b855-a7e085dc9f86" className="x"><span className="x-0">      四川新鼎鑫物流有限公司，是一家国内集</span><span className="x-24">公路零担配送</span><span className="x-30">、</span><span className="x-31">中转</span><span className="x-33">、</span><span className="x-34">仓储</span><span className="x-36">、</span><span className="x-37">整车运输</span><span className="x-41">为一体的专业性物流公司。<br /><br />     公司总部位于四川省成都市金牛区，全国有多家分支机构。主要货运路线有河北到四川往返、浙江到四川往返。<br /><br />     我们一直秉持以“客户为中心、诚信为本、互惠互利、不断创新”的服务宗旨，坚决地将质量与信誉放在企业经营的首位，持之以恒地为客户提供完善的服务。     </span></div>
         <div data-layer="afadb418-90b2-4590-9ff1-1b901ee8ddc6" className="x118c0a977b"></div>
-        <div data-layer="498414d3-6122-4a16-8f79-05d37b2257a7" className="x107">            <div data-layer="f7f5ad79-6dd6-4f3c-b208-e9a12a9a6075" className="x47dffd8f">公司理念</div>
+        <div 
+			data-layer="498414d3-6122-4a16-8f79-05d37b2257a7" className="x107">            <div data-layer="f7f5ad79-6dd6-4f3c-b208-e9a12a9a6075" 
+			className="x47dffd8f"
+			id="mind"
+		>
+				公司理念
+		</div>
             <div data-layer="dd122503-ff95-4a7b-b404-508bddd8490d" className="x274b51d639"></div>
             <div data-layer="5b5de3b7-9d29-44b4-8d91-fc2f308e7e8a" className="x31"></div>
             <div data-layer="b6cdc862-baae-4d7d-a81b-cd87313b3275" className="x32"></div>
@@ -110,7 +123,13 @@ class X10cc2fd4 extends React.Component {
 				联系我们
 			</div>
             <div data-layer="6377bbbb-fd73-4c13-b4e3-78bcd2087fea" className="x88">                <div data-layer="77043b3f-76e3-41a4-9836-cb51b8edcd71" className="x9"></div>
-                <div data-layer="72538073-0246-4c4e-b738-504f653592c1" className="x1"></div>
+                <div 
+					data-layer="72538073-0246-4c4e-b738-504f653592c1" 
+					className="x1"
+					onClick={() => this.props.history.push('/')}
+					style={{cursor: 'pointer'}}
+				>
+				</div>
                 <div data-layer="9099b693-608e-4d33-8467-eb8762bf8022" className="x60">                    <div data-layer="125cb2ed-b45f-45f9-b41a-9bedec9a246d" className="x59">                        <div data-layer="e4702d2f-7a5a-460a-bdac-489b11073b0f" className="x19180969062">物流热线：191-8096-9062</div>
                         <div data-layer="998d4faf-034a-4ecb-82fb-22109e707caa" className="x02883584493">028-83584493</div>
 </div>

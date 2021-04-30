@@ -59,7 +59,12 @@ class X2 extends React.Component {
         <div 
 			data-layer="c84cdda2-e3d1-423e-9642-c1dda3de2b3c" 
 			className="xaec2b271"
-			onClick={() => this.props.history.push('/about')}
+			onClick={() => this.props.history.push({
+				pathname:"/about",
+				params:{
+					position: "introduce"
+				}
+			})}
 			style={{cursor: 'pointer'}}
 		>
 			公司简介
@@ -72,7 +77,12 @@ class X2 extends React.Component {
 			<div 
 				data-layer="5156ab68-252d-4019-87e6-e78227bfac1e" 
 				className="xfb916a67"
-				onClick={() => this.props.history.push('/about')}
+				onClick={() => this.props.history.push({
+					pathname:"/about",
+					params:{
+						position: "introduce"
+					}
+				})}
 				style={{cursor: 'pointer'}}
 			>
 			查看更多

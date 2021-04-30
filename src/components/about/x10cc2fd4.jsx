@@ -12,6 +12,13 @@ class X10cc2fd4 extends React.Component {
 
       };
   }
+
+  componentDidMount() {
+	  if(this.props.location.params) {
+		const {position} = this.props.location.params; 
+		window.location.hash = position;
+	  }
+  }
   
   render() {
     
@@ -24,17 +31,24 @@ class X10cc2fd4 extends React.Component {
 			data-layer="65c3062f-d459-45be-906d-2729f5082083" 
 			className="x28067461"
 		>
-			<a href="#mind">
+			<a href="#mind" style={{color: "rgba(92,92,92,1)"}}>
 				公司理念
 			</a>
 		</div>
         {/* <div data-layer="de9dc808-513c-48dd-998d-e9b17440a5ec" className="xfdc62fd3"><span className="xfdc62fd3-0">首页 > </span><span className="xfdc62fd3-5">企业简介</span></div> */}
         <svg data-layer="73230307-6896-4357-ae6d-2f00c445d31d" preserveAspectRatio="none" viewBox="-1992.5 564.5 451 3" className="x29f77f0c56"><path d="M -1991 566 L -1750.375 566 L -1543 566"  /></svg>
-        <div data-layer="31addb87-7255-4bc3-bb24-4f1218433bef" className="x3087c8a0dd">            <div data-layer="642c772a-da75-4aef-b176-816f9f07e05a" className="xddc269f5">公司简介</div>
+        <div data-layer="31addb87-7255-4bc3-bb24-4f1218433bef" className="x3087c8a0dd">            
+			<div 
+				data-layer="642c772a-da75-4aef-b176-816f9f07e05a" 
+				className="xddc269f5"
+				id="introduce"
+			>
+				公司简介
+			</div>
             <div data-layer="8dfc5b86-6627-4791-9b33-3540adeb2d84" className="x27c3704d95"></div>
 </div>
         <div data-layer="ade04137-dd61-46c9-88cd-175a3faf058c" className="x28b7cdad32"></div>
-        <div data-layer="dbb856c0-d60e-42a4-b855-a7e085dc9f86" className="x"><span className="x-0">      四川新鼎鑫物流有限公司，是一家国内集</span><span className="x-24">公路零担配送</span><span className="x-30">、</span><span className="x-31">中转</span><span className="x-33">、</span><span className="x-34">仓储</span><span className="x-36">、</span><span className="x-37">整车运输</span><span className="x-41">为一体的专业性物流公司。<br /><br />     公司总部位于四川省成都市金牛区，全国有多家分支机构。主要货运路线有河北到四川往返、浙江到四川往返。<br /><br />     我们一直秉持以“客户为中心、诚信为本、互惠互利、不断创新”的服务宗旨，坚决地将质量与信誉放在企业经营的首位，持之以恒地为客户提供完善的服务。     </span></div>
+        <div data-layer="dbb856c0-d60e-42a4-b855-a7e085dc9f86" className="x"><span className="x-0">      四川新鼎鑫物流有限公司，是一家国内集</span><span className="x-24"><b>公路零担配送</b></span><span className="x-30">、</span><span className="x-31"><b>中转</b></span><span className="x-33">、</span><span className="x-34"><b>仓储</b></span><span className="x-36">、</span><span className="x-37"><b>整车运输</b></span><span className="x-41">为一体的专业性物流公司。<br /><br />     公司总部位于四川省成都市金牛区，全国有多家分支机构。主要货运路线有河北到四川往返、浙江到四川往返。<br /><br />     我们一直秉持以“客户为中心、诚信为本、互惠互利、不断创新”的服务宗旨，坚决地将质量与信誉放在企业经营的首位，持之以恒地为客户提供完善的服务。     </span></div>
         <div data-layer="afadb418-90b2-4590-9ff1-1b901ee8ddc6" className="x118c0a977b"></div>
         <div 
 			data-layer="498414d3-6122-4a16-8f79-05d37b2257a7" className="x107">            <div data-layer="f7f5ad79-6dd6-4f3c-b208-e9a12a9a6075" 
